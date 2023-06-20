@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="/Music_Festival/script.js" defer></script>
+    <title>Music Festival: Event Landing Page Design</title>
+    <link rel="stylesheet" href="/Music_Festival/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans:wght@300;400;600;700;800;900&family=Merriweather:wght@300&family=Montserrat:wght@500&family=Poppins:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@700&family=Roboto:ital,wght@1,900&family=Ubuntu:wght@400;700&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/Music_Festival/imgs/Logo/Logo1.png" alt="Music Festival Logo">
+        </div>
+        <div class="social-links">
+            <a href="" class="staytuned">Stay tuned -</a>
+            <a href="https://www.facebook.com" target="_blank"><i id="socials" class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i id="socials" class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i id="socials" class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i id="socials" class="fa-brands fa-youtube"></i></a>
+        </div>
+    </nav>
+    <!-- Navigation Bar -->
+
+
+
+    <!-- Countdown Timer Section -->
+    <section class="section1">
+        <video autoplay muted loop class="video_bg">
+            <source src="/Music_Festival/videos/cover.mp4">
+        </video>
+
+        <div class="shadow">
+            <div class="context">
+                <h3>19-21 September</h3>
+                <h1>Music Festival</h1>
+                <p>Join us for an unforgettable music experience!</p>
+            </div>
+
+            <div class="timer-container">
+                <h4>Days to go -</h4>
+                <div id="countdown"></div>
+                <div class="divider"></div>
+                <a href="#section2" class="res_btn">RESERVE YOUR ENTRY NOW</a>
+            </div>
+        </div>
+    </section>
+    <!-- Countdown Timer Section -->
+
+
+
+    <!-- Ticket Pricing and Registration Section -->
+    <section class="section2" id="section2">
+        <div class="tickets">
+            <div class="darken"></div>
+            <h2>ENTRY PRICING</h2>
+            <div class="pricing">
+                <div class="card">
+                    <h2>ECONOMY-PASS</h2>
+                    <h3>An affordable and budget-friendly ticketing option. It offers access to the event at a
+                        reduced
+                        cost, allowing music enthusiasts to enjoy the festival without breaking the bank.</h3>
+                    <p>$50</p>
+                    <a href="#" class="buy-now-btn">BUY NOW</a>
+                </div>
+                <div class="card">
+                    <h2>GRAND-PASS</h2>
+                    <h3>The grand-pass ticket is the most popular and coveted ticket option of the music festival.
+                        It offers a premium and all-inclusive experience for attendees seeking the ultimate festival
+                        adventure.</h3>
+                    <p>$75</p>
+                    <a href="#" class="buy-now-btn">BUY NOW</a>
+                </div>
+                <div class="card">
+                    <h2>VIP-PASS</h2>
+                    <h3>is a premium ticket option that offers an elevated and exclusive experience for attendees.
+                        With
+                        the VIP-pass ticket, festival-goers gain access to special VIP areas and unlimited food.
+                    </h3>
+                    <p>$100</p>
+                    <a href="#" class="buy-now-btn">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="reg_block">
+            <div class="registration">
+                <h2>REGISTER NOW</h2>
+                <form id="registration-form">
+                    <input type="text" id="first-name" name="firstName" placeholder="First Name" required>
+                    <input type="text" id="last-name" name="lastName" placeholder="Last Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="mobile" name="phone" placeholder="Mobile Number" required>
+                    <button type="submit" class="reg_btn">RESERVE MY SPOT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Ticket Pricing and Registration Section -->
+
+
+
+    <!-- Featured Singers Section -->
+    <section class="section3">
+        <h2>ARTISTS</h2>
+        <div class="row1">
+            <div class="perform_date">
+                <h2>19 Sep</h2>
+                <p>Immerse Yourself in the Ultimate Festival Experience.</p>
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer1.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer2.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer3.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer4.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer17.jpg">
+            </div>
+        </div>
+        <div class="row2">
+            <div class="perform_date">
+                <h2>20 Sep</h2>
+                <p>Discover a World of Music and Unforgettable Moments.</p>
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer6.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer7.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer8.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer9.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer10.jpg">
+            </div>
+        </div>
+        <div class="row3">
+            <div class="perform_date">
+                <h2>21 Sep</h2>
+                <p>Experience the Power of Music, Unleash Your Passion.</p>
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer11.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer12.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer13.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer14.jpg">
+            </div>
+            <div class="singer">
+                <img src="/Music_Festival/imgs/Artist/singer15.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Featured Singers Section -->
+
+
+
+    <!-- About Festival Section -->
+    <section class="section4">
+        <div class="sec4_darken">
+            <h2>ABOUT FESTIVAL</h2>
+            <p>Welcome to The Music Fest, the ultimate music festival experience that will leave you mesmerized and
+                craving for more. Nestled in a picturesque outdoor venue, this vibrant and dynamic event is a
+                celebration of sound, rhythm, and unity.</p>
+            <p>As the sun sets, the air fills with anticipation as music lovers from all walks of life gather to
+                immerse
+                themselves in a kaleidoscope of melodies and beats. The festival boasts an impressive lineup of
+                renowned
+                musicians and emerging talents spanning various genres, ensuring there's something for every musical
+                taste. Indulge your senses as the stages come alive with electrifying performances, pulsating
+                basslines,
+                and soul-stirring vocals. From the infectious energy of rock and pop to the hypnotic rhythms of
+                electronic and dance, the festival's diverse range of artists takes you on an unforgettable sonic
+                journey. Beyond the stages, Harmony Fest offers a plethora of captivating attractions to explore.
+                Engage
+                in interactive art installations that blur the boundaries between visual and auditory experiences,
+                or
+                savor delectable culinary delights from around the world at the vibrant food market. The festival
+                grounds are adorned with colorful decorations, creating a whimsical atmosphere that encourages
+                self-expression and connection. Connect with fellow festival-goers as you revel in the shared love
+                for
+                music, forging friendships and creating memories that will last a lifetime.Harmony Fest is not
+                merely a
+                music festival; it's a harmonious convergence of art, culture, and community. It's a place where you
+                can
+                lose yourself in the music, find your rhythm, and embrace the collective spirit that unites us all.
+            </p>
+            <p>From the moment you step foot onto the festival grounds, you'll find yourself immersed in a
+                kaleidoscope
+                of sights, sounds, and sensations. Stages pulsate with the energy of renowned artists from a myriad
+                of
+                genres, spanning from indie rock to electronic, from jazz to hip-hop. Discover emerging talents and
+                witness legendary performers grace the grand stages, igniting a collective euphoria that
+                reverberates
+                through the crowds. Beyond the captivating performances, Harmonia Music Festival offers a diverse
+                array
+                of activities and experiences. Engage in captivating workshops led by industry experts, where you
+                can
+                learn to strum a guitar, create mesmerizing beats, or even perfect your dance moves. Explore vibrant
+                artisan markets, where local craftsmen display their unique creations, and indulge in a vast array
+                of
+                delectable international cuisine that tantalizes your taste buds. As dusk settles, the festival
+                transforms into a mesmerizing wonderland of lights and interactive installations. The night sky
+                illuminates with a kaleidoscope of colors, synchronized with the music, creating a mesmerizing
+                visual
+                spectacle. Dance beneath a canopy of stars, surrounded by kindred spirits who share your passion for
+                music, as the infectious rhythm courses through your veins. Harmonia Music Festival is more than
+                just a
+                gathering of music enthusiasts—it's an immersive experience that nourishes the mind, body, and soul.
+                Whether you're a devoted music aficionado, a free-spirited wanderer, or simply seeking an escape
+                from
+                the ordinary, this festival promises an unforgettable journey into the heart of music, forging
+                unforgettable memories that will resonate within you long after the final notes fade away.</p>
+            <p>So, join us at Harmony Fest and let the music ignite your soul, as we come together to celebrate the
+                power of music and the joy of being alive.</p>
+            <a href="#section4" class="learn_btn">LEARN MORE</a>
+        </div>
+    </section>
+    <!-- About Festival Section -->
+
+
+
+    <!-- Event Gallery Section -->
+    <section class="section6">
+        <div class="gallery">
+            <h2>EVENT GALLERY</h2>
+            <p>Some beautiful moment from the last year.</p>
+            <div class="videos-grid">
+                <video autoplay muted loop controls width="600px" height="300px">
+                    <source src="/Music_Festival/videos/gallery1.mp4">
+                </video>
+                <video autoplay muted loop controls width="600px" height="300px">
+                    <source src="/Music_Festival/videos/gallery2.mp4">
+                </video>
+                <video autoplay muted loop controls width="600px" height="300px">
+                    <source src="/Music_Festival/videos/gallery3.mp4">
+                </video>
+                <video autoplay muted loop controls width="600px" height="300px">
+                    <source src="/Music_Festival/videos/gallery4.mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    <!-- Event Gallery Section -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="subscribe">
+            <input type="text" class="subs" placeholder="Email">
+            <a href="">SUBSCRIBE</a>
+        </div>
+        <p>&copy; 2023 Mushfiq Qayyum. All rights reserved.</p>
+    </footer>
+    <!-- Footer -->
+
+    <!--scroll animation-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--custom js link-->
+    <script type="text/javascript" src="/Music_Festival/script.js"></script>
+    <!--custom js link-->
+</body>
+
+</html>
